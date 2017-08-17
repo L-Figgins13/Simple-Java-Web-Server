@@ -1,0 +1,4 @@
+AuthUserFile /euphoric/home/IdeaProjects/WebServerProject/config/.htpasswd
+AuthTpe Basic
+AuthName "Admin"
+Require valid-user
