@@ -79,7 +79,7 @@ class Htaccess extends ConfigurationReader
 
         try {
             this.userFile.load();
-            MessageDigest md = MessageDigest.getInstance("SHA");
+            MessageDigest md = MessageDigest.getInstance("SHA-1");
             md.update(password.getBytes());
 
             byte[] shaDigest = md.digest();
@@ -102,6 +102,11 @@ class Htaccess extends ConfigurationReader
 
         return this.userFile.isAuthorized(username,hashedPass);
 
+    }
+
+    public static void main(String[] args)
+    {
+      //Htaccess test = new Htaccess();
     }
 
 
