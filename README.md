@@ -6,4 +6,4 @@ It was written to support simple caching and basic authentication
 
 Only tested on linux.
 
-TODO: add windows support and finish implementing cgi/caching (to be finished in the next few days)
+This is only here for reference at this point /abandoned toy project
